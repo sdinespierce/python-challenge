@@ -1,4 +1,6 @@
 #import dependencies
+import os
+import csv
 
 #initialize variables
 #name_list
