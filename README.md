@@ -6,7 +6,7 @@ This directory contains two projects for CWRU Data Analytics Boot Camp
 
 PyBank reads in a csv of financial records that has two columns: 
 	1. Date
-	2. Profit/Losses.
+	2. Profit/Losses \n
 The script prints to terminal and writes a text file of:
 	1. Total amount of months in data
 	2. Net Profit
@@ -19,7 +19,7 @@ The script prints to terminal and writes a text file of:
 PyPoll reads in a csv of election results that has three columns:
 	1. Voter ID 
 	2. County
-	3. Candidate
+	3. Candidate \n
 The script prints to terminal and writes a text file of:
 	1. Total amount of votes
 	2. Candidate
