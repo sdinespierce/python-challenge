@@ -15,13 +15,14 @@ greatest_increase_month = ""
 greatest_decrease_month = ""
 output = ""
 
-#open file and loop through rows
+#open file
 with open(py_bank_csv, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
 
+    #loop rows in csv
     for row in csvreader:
-        #count all rows
+        #count rows
         month_counter += 1
 
         #str to int for calculations
@@ -40,7 +41,7 @@ with open(py_bank_csv, newline='') as csvfile:
                 greatest_decrease_amt = current_profit_losses
                 greatest_decrease_month = row[0]
 
-#avg_monthly_pro_lo = total_pro_lo / month_count
+#Average monthly profit/loss
 avg_monthly_net = net_profit_loss / month_counter
 
 #output
